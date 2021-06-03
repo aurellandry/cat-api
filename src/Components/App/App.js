@@ -8,7 +8,7 @@ function App() {
     return (
         <div>
             <Navigation />
-            <div className="App">
+            <div className="App container-fluid">
                 <Provider store={Store}>
                     <Router />
                 </Provider>
